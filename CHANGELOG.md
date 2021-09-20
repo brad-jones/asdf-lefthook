@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.1](https://www.github.com/brad-jones/asdf-lefthook/compare/v1.0.0...v1.0.1) (2021-09-20)
+
+
+### Miscellaneous
+
+* **readme:** fix spelling mistake ([86fc59f](https://www.github.com/brad-jones/asdf-lefthook/commit/86fc59fa095b2a2690f4877cf5c7045f3934b961))
+
 ## 1.0.0 (2021-09-20)
 
 
