@@ -1,8 +1,8 @@
 <div align="center">
 
-# asdf-lefthoook [![Release](https://github.com/brad-jones/asdf-lefthoook/actions/workflows/release.yml/badge.svg)](https://github.com/brad-jones/asdf-lefthoook/actions/workflows/release.yml)
+# asdf-lefthook [![Release](https://github.com/brad-jones/asdf-lefthook/actions/workflows/release.yml/badge.svg)](https://github.com/brad-jones/asdf-lefthook/actions/workflows/release.yml)
 
-[lefthoook](https://github.com/evilmartians/lefthook) plugin for the
+[lefthook](https://github.com/evilmartians/lefthook) plugin for the
 [asdf version manager](https://asdf-vm.com).
 
 </div>
@@ -31,23 +31,23 @@ This plugin will not work without them.
 Plugin:
 
 ```shell
-asdf plugin add lefthoook https://github.com/brad-jones/asdf-lefthoook.git
+asdf plugin add lefthook https://github.com/brad-jones/asdf-lefthook.git
 ```
 
-lefthoook:
+lefthook:
 
 ```shell
 # Show all installable versions
-asdf list-all lefthoook
+asdf list-all lefthook
 
 # Install specific version
-asdf install lefthoook latest
+asdf install lefthook latest
 
 # Set a version globally (on your ~/.tool-versions file)
-asdf global lefthoook latest
+asdf global lefthook latest
 
-# Now lefthoook commands are available
-lefthoook --version
+# Now lefthook commands are available
+lefthook --help
 ```
 
 Check [asdf](https://github.com/asdf-vm/asdf) readme for more instructions on
