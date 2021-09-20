@@ -93,7 +93,6 @@
     ensure_command_exists "cp" "https://en.wikipedia.org/wiki/Cp_(Unix)"
     ensure_command_exists "curl" "https://curl.se"
     ensure_command_exists "cut" "https://en.wikipedia.org/wiki/Cut_(Unix)"
-    ensure_command_exists "docker" "https://www.docker.com/products/docker-desktop"
     ensure_command_exists "git" "https://git-scm.com"
     ensure_command_exists "grep" "https://www.gnu.org/software/grep"
     ensure_command_exists "mkdir" "https://en.wikipedia.org/wiki/Mkdir"
