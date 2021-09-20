@@ -61,9 +61,7 @@ tasks:
           fi
 
           if [ "${from}" == "null" ]; then
-            from="${GITHUB_SHA}~1"
-            echo "FROM=${from}"
-            npx commitlint -V --from "${from}"
+            git log -1 --pretty='%B' | npx commitlint -V
           else
             echo "FROM=${from}"
             echo "TO=${GITHUB_SHA}"
