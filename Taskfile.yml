@@ -112,7 +112,7 @@ tasks:
         asdf plugin test lefthook "{{.GIT_REPO}}" \
           --asdf-tool-version "{{.TOOL_VERSION}}" \
           --asdf-plugin-gitref "${GITHUB_SHA:-testing}" \
-          lefthook version
+          lefthook --help
         status="$?"
         set -e;
 
